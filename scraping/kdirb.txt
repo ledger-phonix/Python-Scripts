@@ -1,0 +1,37 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: kdirb.txt
+START_TIME: Fri Jun  2 11:25:54 2023
+URL_BASE: http://192.168.18.76/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://192.168.18.76/ ----
++ http://192.168.18.76/~operator (CODE:403|SIZE:273)
++ http://192.168.18.76/~root (CODE:403|SIZE:269)
++ http://192.168.18.76/cgi-bin/ (CODE:403|SIZE:272)
++ http://192.168.18.76/index.html (CODE:200|SIZE:2890)
+==> DIRECTORY: http://192.168.18.76/manual/
+==> DIRECTORY: http://192.168.18.76/mrtg/
+==> DIRECTORY: http://192.168.18.76/usage/
+
+---- Entering directory: http://192.168.18.76/manual/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.18.76/mrtg/ ----
++ http://192.168.18.76/mrtg/index.html (CODE:200|SIZE:17318)
+
+---- Entering directory: http://192.168.18.76/usage/ ----
++ http://192.168.18.76/usage/index.html (CODE:200|SIZE:4281)
+
+-----------------
+END_TIME: Fri Jun  2 11:26:02 2023
+DOWNLOADED: 13836 - FOUND: 6
