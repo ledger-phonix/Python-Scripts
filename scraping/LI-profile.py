@@ -8,8 +8,8 @@ import csv
 
 
 
-username = "talhanadeem718@gmail.com"
-password = "#LItalha@782"
+username = "username"
+password = "password"
 msg = 'hey How are you.'
 
 with open('Data/file_name.csv', 'r') as f:
