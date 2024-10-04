@@ -21,8 +21,8 @@ data = {
 }
 
 
-username = "talhanadeem718@gmail.com"
-password = "#LItalha@782"
+username = "username "
+password = "password"
 
 
 driver = webdriver.Chrome()
