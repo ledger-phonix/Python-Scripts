@@ -16,8 +16,8 @@ names =[]
 
 
 #<-------------editing section -------------->
-username = "talhanadeem718@gmail.com"
-password = "#LItalha@782"
+username = "username "
+password = "password"
 
 
 
